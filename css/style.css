@@ -175,7 +175,7 @@
 	background-color: var(--pbmit-global-color);
 }
 .testimonial-bg-one{
-	background-image: url(../images/homepage-1/bg/construction-04.jpg);
+	background-image: url(../images/homepage-6/service/team-img4.png);
     background-position: center center;
     background-repeat: no-repeat;
 	position: relative;
@@ -1241,13 +1241,13 @@
 }
 .about-us_inner_bg::before{
 	position: absolute;
-    height: 100%;
-	width: 164%;
+    height: 80%;
+	width: 100%;
     top: 0;
     right: 0;
     content: "";
     display: block;
-	background-image: url(../images/homepage-1/service/service-img.jpg);
+	background-image: url(../images/homepage-6/service/istockphoto-1096123442-612x612.jpg);
 	background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2856,7 +2856,7 @@ article.post.blog-details .post-content{
 }
 .contact-section-iframe{
     height: 500px;
-	filter: brightness( 100% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+	/* filter: brightness( 100% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg ); */
 }
 .contact-section-iframe iframe{
     height: 100%;
@@ -3221,4 +3221,24 @@ i.fa.fas.fa-exclamation-triangle{
 
 .site-header-menu .pbmit-right-box .pbmit-header-search-btn {
     margin-right: 10px; /* Adjust this margin value as needed */
+}
+
+
+
+
+.about-us_inner_bg2::before{
+	position: absolute;
+    height: 80%;
+	width: 100%;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+	background-image: url(../images/homepage-6/bg/top-view-colorful-paint-cans.jpg);
+	background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-us_inner_single{
+	padding: 90px 15px 90px 40px;
 }
