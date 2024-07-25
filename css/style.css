@@ -3213,3 +3213,12 @@ i.fa.fas.fa-exclamation-triangle{
 } */
 
 
+.site-header-menu .pbmit-right-box {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap value as needed */
+}
+
+.site-header-menu .pbmit-right-box .pbmit-header-search-btn {
+    margin-right: 10px; /* Adjust this margin value as needed */
+}
