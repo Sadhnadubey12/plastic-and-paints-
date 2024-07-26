@@ -832,7 +832,7 @@ INDEX:
 /*----------------------------------------*/
 /* 09 - Scroll To Top 
 /*----------------------------------------*/
-body .scroll-to-top {
+/* body .scroll-to-top {
     position: fixed;
     z-index: 200;
     top: auto;
@@ -853,7 +853,7 @@ body .scroll-to-top {
 body .scroll-to-top:hover {
     background-color: var(--pbmit-secondary-color);
     color: var(--pbmit-white-color);
-}
+} */
 
 /*----------------------------------------*/
 /*  10 - Search Box

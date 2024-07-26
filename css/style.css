@@ -1686,7 +1686,7 @@
 	margin-top: 50px;
 }
 .service-details .list-items-img{
-	background-image: url(../images/service/service-07b.jpg);
+	background-image: url(/images/homepage-6/service/istockphoto-1519634144-612x612.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1697,7 +1697,7 @@
 	padding: 20px 15px 10px 10px;
 }
 .service-details .list-items-second-img{
-	background-image: url(../images/service/service-06b.jpg);
+	background-image: url(../images/homepage-6/service/istockphoto-91318683-612x612.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3241,4 +3241,64 @@ i.fa.fas.fa-exclamation-triangle{
 }
 .about-us_inner_single{
 	padding: 90px 15px 90px 40px;
+}
+
+
+/* paint service */
+.service-details2 .list-items-img{
+	background-image: url(/images/homepage-6/service/istockphoto-1270405173-612x612.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	padding: 155px 0;
+	margin-top: 50px;
+}
+.service-details2 .list-items-right{
+	padding: 20px 15px 10px 10px;
+}
+.service-details2 .list-items-second-img{
+	background-image: url(../images/homepage-6/service/istockphoto-540107604-612x612.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	padding: 155px 0;
+}
+
+
+/* Social media icons */
+
+
+/* Container for icons */
+.icon-container {
+    position: fixed;
+    z-index: 1000;
+    bottom: 50px;
+    right: 10px;
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.icon-container .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+    transition: transform 0.3s ease-in-out;
+    animation: blink 1s infinite;
+}
+
+.icon-container .icon:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.icon-container .icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
